@@ -1,0 +1,23 @@
+<div ng-show="pages.length">
+    <h1>Here are all of your pages</h1>
+    <ul>
+        <li ng-repeat="item in pages">
+            <a ui-sref="pages.comments({ pageId: item.pageId })">{{ item.webPage }}</a>
+        </li>
+    </ul>
+</div>
+
+<div class="col-md-4">
+    <h3>Add a new link</h3>
+    <form  ng-submit="NewsFactory.addPages()" class="form-inline" role="form">
+        <div class="form-group">
+            <input type="text" ng-model="NewsFactory.webPage" class="form-control" placeholder="Enter a link">
+        </div>
+        <div class="form-group">
+            <input type="text" ng-model="NewsFactory.userName" class="form-control" placeholder="Enter your name">
+        </div>
+        <button type="submit" class="btn btn-default"> Submit</button>
+    </form>
+
+</div>
+<div ui-view></div>
