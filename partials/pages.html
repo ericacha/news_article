@@ -2,7 +2,7 @@
     <h1>Here are all of your pages</h1>
     <ul>
         <li ng-repeat="item in pages">
-            <a ui-sref="pages.comments({ pageId: item.pageId })">{{ item.webPage }}</a>
+        <a ui-sref="pages.comments({ pageId: item.pageId })">{{ item.webPage }}</a>, by {{ item.name }}
         </li>
     </ul>
 </div>
