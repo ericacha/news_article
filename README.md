@@ -1,7 +1,8 @@
-<h1> Course Roster  </h1>
+<h1> News Post  </h1>
 Description
 
-Course roster app allows the user to add student names and courses. The student can be added to a course.
+App allows the user to post a link so that it can share with others. Allows others to vote and know what's popular and leave comments.
+
 
 <b> April 22nd, 2015 | Erica Cha & Chitra Atmakuru</b>
 
