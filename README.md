@@ -1,7 +1,7 @@
 <h1> News Post  </h1>
 Description
 
-App allows the user to post a link so that it can share with others. Allows others to vote and know what's popular and leave comments.
+App allows the user to post a link so that it can share with others. Allows others to like the article, leave comments and see the most popular article based on likes listed.
 
 
 <b> April 22nd, 2015 | Erica Cha & Chitra Atmakuru</b>

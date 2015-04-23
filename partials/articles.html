@@ -3,14 +3,14 @@
     <ul>
         <li ng-repeat="item in articles | orderBy:'-likes'">
             <!-- assigning a new variable articleID to item.id ti the comments to the articles -->
-            <i>likes:</i>{{ item.likes }}<a ng-click="item.likes = item.likes + 1"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+            <i>likes:</i> {{ item.likes }}<a ng-click="item.likes = item.likes + 1"><span class="glyphicon glyphicon-thumbs-up"></span></a>
                 <a ui-sref="articles.comments({ articleId: item.id })">{{ item.title }}</a> ({{ item.site }}) by {{ item.user }}
 
 
         </li>
     </ul>
 </div>
-
+<br><br><br><br><br><br>
 <div class="col-md-4">
     <h3>Add a new article</h3>
     <form  ng-submit="ArticlesFactory.addArticle()" class="form-inline" role="form">
