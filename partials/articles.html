@@ -1,0 +1,28 @@
+<div ng-show="articles.length">
+    <h1>Here are all of your articles</h1>
+    <ul>
+        <li ng-repeat="item in articles">
+            <!-- assigning a new variable articleID to item.id ti the comments to the articles -->
+            <a ui-sref="articles.comments({ articleId: item.id })">{{ item.title }}</a> ({{ item.site }}) by {{ item.user }}
+        </li>
+    </ul>
+</div>
+
+<div class="col-md-4">
+    <h3>Add a new article</h3>
+    <form  ng-submit="ArticlesFactory.addArticle()" class="form-inline" role="form">
+        <div class="form-group">
+            <input type="text" ng-model="ArticlesFactory.artTitle" class="form-control" placeholder="Enter the topic">
+        </div>
+        <div class="form-group">
+            <input type="text" ng-model="ArticlesFactory.artSite" class="form-control" placeholder="Enter the URL">
+        </div>
+        <div class="form-group">
+            <input type="text" ng-model="ArticlesFactory.userName" class="form-control" placeholder="Enter your name">
+        </div>
+        <button type="submit" class="btn btn-default"> Submit</button>
+    </form>
+
+</div>
+<!--  this portion connects to the articles.comments, will display  the state (page)-->
+<div ui-view></div>
