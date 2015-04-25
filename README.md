@@ -19,8 +19,10 @@ App allows the user to post a link so that it can share with others. Allows othe
 
 ####Setup Instructions
 
-Clone this repository. Open 'index.html' in a web browser (file is in project root directory).
-
+1. Clone this git repository (https://github.com/ericacha/news_article)
+2. Open terminal, set up localhost server, open the project folder
+3. In the terminal, enter (python -m SimpleHTTPServer)
+4. On web browser, enter (localost:8000) to display
 
 ####Copyright © 2015 Erica Cha and Chitra Atmakuru
 
