@@ -1,7 +1,7 @@
 <h1> News Article   </h1>
 ####Description
 
-App allows the user to post a link so that it can share with others. Allows others to like the article, leave comments and see the most popular article based on likes listed.
+App allows the user to post a link so that it can share with others. Allows others to like the article, leave comments and see the most popular article based on likes voted.
 
 
 ####April 22nd, 2015 | Erica Cha & Chitra Atmakuru
