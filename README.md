@@ -26,5 +26,5 @@ Clone this repository. Open 'index.html' in a web browser (file is in project ro
 
 
 
-####License [MIT(http://opensource.org/licenses/MIT)
+####License [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
