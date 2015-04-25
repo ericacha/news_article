@@ -8,14 +8,14 @@ App allows the user to post a link so that it can share with others. Allows othe
 
 <b>Technologies</b>
 
-JavaScript
-Mocha.js
-Chai.js
-jQuery
-HTML
-Bootsrap
-CSS
-Angular
+- JavaScript
+- Mocha.js
+- Chai.js
+- jQuery
+- HTML
+- Bootsrap
+- CSS
+- Angular
 
 <b>Setup Instructions</b>
 
