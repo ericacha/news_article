@@ -21,7 +21,8 @@ App allows the user to post a link so that it can share with others. Allows othe
 
 Clone this repository. Open 'index.html' in a web browser (file is in project root directory).
 <br>
-Copyright © 2015 Erica Cha and Chitra Atmakuru
+
+####Copyright © 2015 Erica Cha and Chitra Atmakuru
 
 <b>License</b>
 
